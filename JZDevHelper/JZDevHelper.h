@@ -1,9 +1,9 @@
 //
-//  JZCategoryKit.h
-//  JZAppDemo
+//  JZDevHelper.h
+//  JZDevHelperDemo
 //
-//  Created by Zengyijie' Com  on 2017/7/15.
-//  Copyright © 2017年 Zengyijie' Com . All rights reserved.
+//  Created by Zengyijie' Com  on 2018/6/5.
+//  Copyright © 2018年 www.noname.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

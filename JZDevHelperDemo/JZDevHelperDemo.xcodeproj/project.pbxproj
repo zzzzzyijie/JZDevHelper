@@ -88,7 +88,6 @@
 		393B786920C6404200CC2A09 /* NSString+JZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JZAdd.m"; sourceTree = "<group>"; };
 		393B786A20C6404200CC2A09 /* UIDevice+JZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JZAdd.h"; sourceTree = "<group>"; };
 		393B786B20C6404200CC2A09 /* UIDevice+JZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JZAdd.m"; sourceTree = "<group>"; };
-		393B786C20C6404200CC2A09 /* JZDevHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZDevHelper.h; sourceTree = "<group>"; };
 		393B786E20C6404200CC2A09 /* CALayer+JZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JZAdd.h"; sourceTree = "<group>"; };
 		393B786F20C6404200CC2A09 /* CALayer+JZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JZAdd.m"; sourceTree = "<group>"; };
 		393B787020C6404200CC2A09 /* UIColor+JZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JZAdd.h"; sourceTree = "<group>"; };
@@ -124,6 +123,7 @@
 		393B789220C6404300CC2A09 /* JZSacleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSacleTool.m; sourceTree = "<group>"; };
 		393B789420C6404300CC2A09 /* DataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUtil.h; sourceTree = "<group>"; };
 		393B789520C6404300CC2A09 /* DataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtil.m; sourceTree = "<group>"; };
+		393B78B320C6784900CC2A09 /* JZDevHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDevHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,7 +209,7 @@
 		393B785B20C6404200CC2A09 /* JZDevHelper */ = {
 			isa = PBXGroup;
 			children = (
-				393B786C20C6404200CC2A09 /* JZDevHelper.h */,
+				393B78B320C6784900CC2A09 /* JZDevHelper.h */,
 				393B785C20C6404200CC2A09 /* Category */,
 				393B788620C6404300CC2A09 /* Macro */,
 				393B788C20C6404300CC2A09 /* Tool */,
