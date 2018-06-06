@@ -7,7 +7,6 @@
 //
 
 #import "UIColor+JZAdd.h"
-#import "NSString+JZAdd.h"
 
 @implementation UIColor (JZAdd)
 
@@ -52,7 +51,9 @@
 
 static BOOL hexStrToRGBA(NSString *str,
                          CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a) {
-    str = [[str stringByTrim] uppercaseString];
+    
+    //str = [[str stringByTrim] uppercaseString];
+    str = [[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     
     if ([str hasPrefix:@"#"]) {
         str = [str substringFromIndex:1];

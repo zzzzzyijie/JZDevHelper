@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "JZDevHelper.h"
+#import "ColorFontMacro.h"
+#import "GernalMacro.h"
 
 @interface ViewController ()
 

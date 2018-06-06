@@ -27,6 +27,3 @@ NSString *const kIsCompany = @"kIsCompany";
 NSString *const kAllClass = @"kAllClass";
 NSString *const kAdResult = @"kAdResult";
 
-@implementation JZConstDefin
-
-@end

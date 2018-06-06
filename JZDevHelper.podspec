@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JZDevHelper"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "JZDevHelper"
   s.description  = <<-DESC
                      JZDevHelper App开发常用的Category/工具类/宏等
@@ -20,25 +20,27 @@ Pod::Spec.new do |s|
   
   #s.dependency 'FLKAutoLayout', '~> 0.1'
   s.subspec 'Category' do |ss|
-#ss.source_files = 'JZDevHelper/**/*.{h,m}'
     ss.subspec 'Foundation' do |sss|
-      sss.source_files = 'JZDevHelper/**/*.{h,m}'
+     sss.source_files = 'JZDevHelper/Category/Foundation/*.{h,m}'
     end
     ss.subspec 'UIKit' do |sss|
-       sss.source_files = 'JZDevHelper/**/*.{h,m}'
+      sss.source_files = 'JZDevHelper/Category/UIKit/*.{h,m}'
     end
   end
 
   s.subspec 'Macro' do |ss|
-    ss.source_files = 'JZDevHelper/**/*.{h,m}'
+    ss.dependency 'JZDevHelper/Category/Foundation'
+    ss.dependency 'JZDevHelper/Category/UIKit'
+    ss.dependency 'JZDevHelper/Tool'
+    ss.source_files = 'JZDevHelper/Macro/*.{h,m}'
   end
 
   s.subspec 'Tool' do |ss|
-    ss.source_files = 'JZDevHelper/**/*.{h,m}'
+    ss.source_files = 'JZDevHelper/Tool/*.{h,m}'
   end
 
   s.subspec 'Util' do |ss|
-    ss.source_files = 'JZDevHelper/**/*.{h,m}'
+    ss.source_files = 'JZDevHelper/Util/*.{h,m}'
   end
 
 end 

@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UIColor+JZAdd.h"
+#import "JZFontTool.h"
 
 @interface ColorFontMacro : NSObject
 

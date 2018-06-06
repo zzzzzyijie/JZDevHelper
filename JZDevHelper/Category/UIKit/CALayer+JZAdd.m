@@ -8,6 +8,12 @@
 
 #import "CALayer+JZAdd.h"
 
+// 忽略警告
+#define CLArgumentToString(macro) #macro
+#define CLClangWarningConcat(warning_name) CLArgumentToString(clang diagnostic ignored warning_name)
+#define CLBeginIgnoreClangWarning(warningName) _Pragma("clang diagnostic push") _Pragma(CLClangWarningConcat(#warningName))
+#define CLEndIgnoreClangWarning _Pragma("clang diagnostic pop")
+
 @implementation CALayer (JZAdd)
 
 - (void)jz_removeDefaultAnimations{
@@ -17,10 +23,10 @@
                                                                NSStringFromSelector(@selector(anchorPoint)): [NSNull null],
                                                                NSStringFromSelector(@selector(anchorPointZ)): [NSNull null],
                                                                NSStringFromSelector(@selector(transform)): [NSNull null],
-                                                               BeginIgnoreClangWarning(-Wundeclared-selector)
+                                                               CLBeginIgnoreClangWarning(-Wundeclared-selector)
                                                                NSStringFromSelector(@selector(hidden)): [NSNull null],
                                                                NSStringFromSelector(@selector(doubleSided)): [NSNull null],
-                                                               EndIgnoreClangWarning
+                                                               CLEndIgnoreClangWarning
                                                                NSStringFromSelector(@selector(sublayerTransform)): [NSNull null],
                                                                NSStringFromSelector(@selector(masksToBounds)): [NSNull null],
                                                                NSStringFromSelector(@selector(contents)): [NSNull null],

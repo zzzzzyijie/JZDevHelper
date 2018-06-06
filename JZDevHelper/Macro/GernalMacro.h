@@ -61,4 +61,3 @@
 #define EndIgnoreClangWarning _Pragma("clang diagnostic pop")
 
 
-

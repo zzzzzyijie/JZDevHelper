@@ -8,8 +8,8 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
-#import "GernalMacro.h"
 
+// 参考来自QMUI 
 @interface CALayer (JZAdd)
 
 - (void)jz_removeDefaultAnimations;

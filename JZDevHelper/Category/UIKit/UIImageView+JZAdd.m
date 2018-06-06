@@ -7,7 +7,6 @@
 
 
 #import "UIImageView+JZAdd.h"
-#import "CGRectHelp.h"
 
 @implementation UIImageView (JZAdd)
 
@@ -26,9 +25,16 @@
     CGFloat verticalRatio = limitSize.height / currentSize.height;
     CGFloat ratio = fminf(horizontalRatio, verticalRatio);
     CGRect frame = self.frame;
-    frame.size.width = flat(currentSize.width * ratio);
-    frame.size.height = flat(currentSize.height * ratio);
+    
+    frame.size.width = [self sizeFlat:currentSize.width * ratio];
+    frame.size.height = [self sizeFlat:currentSize.height * ratio];
     self.frame = frame;
+}
+
+- (CGFloat)sizeFlat:(CGFloat)floatValue{
+    CGFloat scale = [[UIScreen mainScreen] scale];
+    CGFloat flattedValue = ceil(floatValue * scale) / scale;
+    return flattedValue;
 }
 
 @end

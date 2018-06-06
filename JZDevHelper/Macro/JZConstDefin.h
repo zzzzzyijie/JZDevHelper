@@ -46,8 +46,3 @@ UIKIT_EXTERN NSString *const kPayFailue;
 UIKIT_EXTERN NSString *const kAllClass;
 UIKIT_EXTERN NSString *const kAdResult;
 
-
-
-@interface JZConstDefin : NSObject
-
-@end
