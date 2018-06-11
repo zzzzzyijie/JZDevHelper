@@ -52,7 +52,7 @@
 #define JZStrongSelf(type)  __strong typeof(type) type = weak##type;
 
 /** 主窗口 */
-#define JZKeyWindow [[UIApplication sharedApplication] keyWindow]
+#define JZKeyWindow [[UIApplication sharedApplication].delegate window]
 
 // 忽略警告
 #define ArgumentToString(macro) #macro

@@ -10,24 +10,27 @@
 
 @implementation NSString (Date)
 
-/** NSData转换成字符串*/
-+ (NSString *)timeWithDate:(NSDate *)date DateFormat:(NSString *)dateFormat{
++ (NSDateFormatter *)getDateFormatter:(NSString*)dateFormat{
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:dateFormat];
     [dateFormatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
     [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"zh_CN"]];
+    return dateFormatter;
+}
+
+/** NSData转换成字符串*/
++ (NSString *)timeWithDate:(NSDate *)date DateFormat:(NSString *)dateFormat{
+    NSDateFormatter *dateFormatter = [self getDateFormatter:dateFormat];
     NSString *str = [dateFormatter stringFromDate:date];
     return str ? str : @"";
 }
 
-/** 成字符串转换NSData */
+/** 字符串转换NSData */
 + (NSDate *)dateFromString:(NSString *)string DateFormat:(NSString *)dateFormat{
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:dateFormat];
-    [dateFormatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
-    [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"zh_CN"]];
+    NSDateFormatter *dateFormatter = [self getDateFormatter:dateFormat];
     NSDate *date = [dateFormatter dateFromString:string];
     return date? date : [NSDate new];
 }
+
 
 @end
