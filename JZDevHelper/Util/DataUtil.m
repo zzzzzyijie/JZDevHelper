@@ -88,9 +88,9 @@
     if ([self isBlankObject:dict]) {
         return YES;
     }
-    if (![dict isKindOfClass:[NSDictionary class]]) {
-        return YES;
-    }
+//    if (![dict isKindOfClass:[NSDictionary class]]) {
+//        return YES;
+//    }
     if (dict.count <= 0) {
         return YES;
     }
@@ -101,9 +101,9 @@
     if ([self isBlankObject:array]) {
         return YES;
     }
-    if (![array isKindOfClass:[NSArray class]]) {
-        return YES;
-    }
+//    if (![array isKindOfClass:[NSArray class]]) {
+//        return YES;
+//    }
     if (array.count <= 0) {
         return YES;
     }
