@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JZDevHelper"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "JZDevHelper"
   s.description  = <<-DESC
                      JZDevHelper App开发常用的Category/工具类/宏等

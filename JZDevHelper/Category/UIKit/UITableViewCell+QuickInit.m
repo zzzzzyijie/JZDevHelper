@@ -13,7 +13,7 @@
 + (instancetype)jz_cellWithTableView:(UITableView *)tableView{
     NSString *ID = [NSString stringWithFormat:@"%@",NSStringFromClass([self class])];
     Class clz = [self class];
-    UITableViewCell *cell = (UITableViewCell *)clz;
+    UITableViewCell *cell;
     cell = [tableView dequeueReusableCellWithIdentifier:ID];
     //YJLog(@"cell的类型-%@",NSStringFromClass([cell class]));
     if (!cell) {
