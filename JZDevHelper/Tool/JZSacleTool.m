@@ -10,6 +10,10 @@
 
 @implementation JZSacleTool
 
+// floor  如果参数是小数  则求最大的整数但不大于本身.
+// round  如果参数是小数  则求本身的四舍五入.
+// ceil   如果参数是小数  则求最小的整数但不小于本身.
+
 + (CGFloat)getScreenScale{
     return [UIScreen mainScreen].scale;
 }

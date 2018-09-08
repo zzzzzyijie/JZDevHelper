@@ -6,6 +6,15 @@
 //  Copyright © 2018年 www.noname.com. All rights reserved.
 //
 
+/*
+ 文件依赖关系
+    Macro
+         ss.dependency 'JZDevHelper/Category/Foundation'
+         ss.dependency 'JZDevHelper/Category/UIKit'
+         ss.dependency 'JZDevHelper/Tool'
+    
+ */
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 // UIKit Category
@@ -32,7 +41,6 @@
 #import "CGRectHelp.h"
 #import "ColorFontMacro.h"
 #import "GernalMacro.h"
-#import "JZConstDefin.h"
 
 // Tool
 #import "JZAnimateTool.h"

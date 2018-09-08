@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "JZDevHelper.h"
-#import "ColorFontMacro.h"
+//#import "ColorFontMacro.h"
 #import "GernalMacro.h"
 
 @interface ViewController ()
@@ -20,7 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    kDISPATCH_GLOBAL_QUEUE_DEFAULT(^{
+        NSLog(@"hhhh");
+        kDISPATCH_MAIN_THREAD(^{
+            NSLog(@"AAA");
+        });
+    });
     
+    kDISPATCH_AFTER(3, ^{
+        NSLog(@"DisBACK");
+    });
 }
 
 

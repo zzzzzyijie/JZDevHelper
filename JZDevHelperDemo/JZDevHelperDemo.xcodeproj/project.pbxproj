@@ -33,11 +33,11 @@
 		393B78A520C6404300CC2A09 /* UITableView+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B787F20C6404300CC2A09 /* UITableView+JZAdd.m */; };
 		393B78A620C6404300CC2A09 /* UITableViewCell+QuickInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B788120C6404300CC2A09 /* UITableViewCell+QuickInit.m */; };
 		393B78A720C6404300CC2A09 /* UIView+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B788320C6404300CC2A09 /* UIView+JZAdd.m */; };
-		393B78A920C6404300CC2A09 /* JZConstDefin.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B788B20C6404300CC2A09 /* JZConstDefin.m */; };
 		393B78AA20C6404300CC2A09 /* JZAnimateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B788E20C6404300CC2A09 /* JZAnimateTool.m */; };
 		393B78AB20C6404300CC2A09 /* JZFontTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B789020C6404300CC2A09 /* JZFontTool.m */; };
 		393B78AC20C6404300CC2A09 /* JZSacleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B789220C6404300CC2A09 /* JZSacleTool.m */; };
 		393B78AD20C6404300CC2A09 /* DataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B789520C6404300CC2A09 /* DataUtil.m */; };
+		399143762143AD3900A76F9E /* UIWindow+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 399143752143AD3900A76F9E /* UIWindow+JZAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,8 +113,6 @@
 		393B788720C6404300CC2A09 /* CGRectHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRectHelp.h; sourceTree = "<group>"; };
 		393B788820C6404300CC2A09 /* ColorFontMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorFontMacro.h; sourceTree = "<group>"; };
 		393B788920C6404300CC2A09 /* GernalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GernalMacro.h; sourceTree = "<group>"; };
-		393B788A20C6404300CC2A09 /* JZConstDefin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZConstDefin.h; sourceTree = "<group>"; };
-		393B788B20C6404300CC2A09 /* JZConstDefin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZConstDefin.m; sourceTree = "<group>"; };
 		393B788D20C6404300CC2A09 /* JZAnimateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAnimateTool.h; sourceTree = "<group>"; };
 		393B788E20C6404300CC2A09 /* JZAnimateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAnimateTool.m; sourceTree = "<group>"; };
 		393B788F20C6404300CC2A09 /* JZFontTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFontTool.h; sourceTree = "<group>"; };
@@ -124,6 +122,8 @@
 		393B789420C6404300CC2A09 /* DataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUtil.h; sourceTree = "<group>"; };
 		393B789520C6404300CC2A09 /* DataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtil.m; sourceTree = "<group>"; };
 		393B78B320C6784900CC2A09 /* JZDevHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDevHelper.h; sourceTree = "<group>"; };
+		399143742143AD3800A76F9E /* UIWindow+JZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JZAdd.h"; sourceTree = "<group>"; };
+		399143752143AD3900A76F9E /* UIWindow+JZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JZAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +274,8 @@
 				393B788120C6404300CC2A09 /* UITableViewCell+QuickInit.m */,
 				393B788220C6404300CC2A09 /* UIView+JZAdd.h */,
 				393B788320C6404300CC2A09 /* UIView+JZAdd.m */,
+				399143742143AD3800A76F9E /* UIWindow+JZAdd.h */,
+				399143752143AD3900A76F9E /* UIWindow+JZAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -284,8 +286,6 @@
 				393B788720C6404300CC2A09 /* CGRectHelp.h */,
 				393B788820C6404300CC2A09 /* ColorFontMacro.h */,
 				393B788920C6404300CC2A09 /* GernalMacro.h */,
-				393B788A20C6404300CC2A09 /* JZConstDefin.h */,
-				393B788B20C6404300CC2A09 /* JZConstDefin.m */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -460,7 +460,6 @@
 				393B789720C6404300CC2A09 /* NSDictionary+jzSafe.m in Sources */,
 				393B789A20C6404300CC2A09 /* NSString+Date.m in Sources */,
 				393B78AD20C6404300CC2A09 /* DataUtil.m in Sources */,
-				393B78A920C6404300CC2A09 /* JZConstDefin.m in Sources */,
 				393B789E20C6404300CC2A09 /* UIColor+JZAdd.m in Sources */,
 				393B789820C6404300CC2A09 /* NSDictionary+Unicode.m in Sources */,
 				393B78A620C6404300CC2A09 /* UITableViewCell+QuickInit.m in Sources */,
@@ -471,6 +470,7 @@
 				393B783920C63FE200CC2A09 /* main.m in Sources */,
 				393B78AC20C6404300CC2A09 /* JZSacleTool.m in Sources */,
 				393B782B20C63FE200CC2A09 /* AppDelegate.m in Sources */,
+				399143762143AD3900A76F9E /* UIWindow+JZAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
