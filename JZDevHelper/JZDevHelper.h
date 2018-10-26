@@ -28,6 +28,8 @@
 #import "UINavigationController+JZAdd.h"
 #import "UITableView+JZAdd.h"
 #import "UILabel+JZAdd.h"
+#import "UIView+Alert.h"
+#import "UIButton+JZAdd.h"
 // Foundation Category
 #import "NSObject+jzswizzle.h"
 #import "NSArray+jzSafe.h"
