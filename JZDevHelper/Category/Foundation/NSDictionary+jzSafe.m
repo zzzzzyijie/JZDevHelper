@@ -86,7 +86,8 @@
         return;
     }
     if (!anObject) {
-        anObject = @"";
+        //anObject = @""; // 这个会出现bug
+        return;
     }
     [self jz_setObject:anObject forKey:aKey];
 }
@@ -97,7 +98,8 @@
         return;
     }
     if (!obj) {
-        obj = @"";
+        //obj = @""; // 这个会出现bug
+        return;
     }
     [self jz_setObject:obj forKeyedSubscript:key];
 }

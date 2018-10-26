@@ -25,10 +25,12 @@
 @property (nonatomic,assign) CGFloat jz_right;
 @property (nullable,nonatomic, readonly) UIViewController *jz_currentViewController;
 
+#pragma mark - Ohter
 - (void)jz_hideKeyBoard;
 - (void)jz_removeAllSubviews;
 + (instancetype _Nullable )jz_viewFromXib;
 
+#pragma mark - Image Snapshot
 /**
  Create a snapshot image of the complete view hierarchy.
  */

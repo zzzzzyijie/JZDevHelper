@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390CC0D62182FFCC008EEB04 /* UIView+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 390CC0D52182FFCC008EEB04 /* UIView+Alert.m */; };
+		390CC0D921830062008EEB04 /* UIButton+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 390CC0D821830062008EEB04 /* UIButton+JZAdd.m */; };
 		393B782B20C63FE200CC2A09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B782A20C63FE200CC2A09 /* AppDelegate.m */; };
 		393B782E20C63FE200CC2A09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B782D20C63FE200CC2A09 /* ViewController.m */; };
 		393B783120C63FE200CC2A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393B782F20C63FE200CC2A09 /* Main.storyboard */; };
@@ -58,6 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		390CC0D42182FFCC008EEB04 /* UIView+Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Alert.h"; sourceTree = "<group>"; };
+		390CC0D52182FFCC008EEB04 /* UIView+Alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Alert.m"; sourceTree = "<group>"; };
+		390CC0D721830062008EEB04 /* UIButton+JZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JZAdd.h"; sourceTree = "<group>"; };
+		390CC0D821830062008EEB04 /* UIButton+JZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JZAdd.m"; sourceTree = "<group>"; };
 		393B782620C63FE200CC2A09 /* JZDevHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZDevHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		393B782920C63FE200CC2A09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		393B782A20C63FE200CC2A09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -276,6 +282,10 @@
 				393B788320C6404300CC2A09 /* UIView+JZAdd.m */,
 				399143742143AD3800A76F9E /* UIWindow+JZAdd.h */,
 				399143752143AD3900A76F9E /* UIWindow+JZAdd.m */,
+				390CC0D42182FFCC008EEB04 /* UIView+Alert.h */,
+				390CC0D52182FFCC008EEB04 /* UIView+Alert.m */,
+				390CC0D721830062008EEB04 /* UIButton+JZAdd.h */,
+				390CC0D821830062008EEB04 /* UIButton+JZAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -455,6 +465,7 @@
 				393B789920C6404300CC2A09 /* NSObject+jzswizzle.m in Sources */,
 				393B789B20C6404300CC2A09 /* NSString+JZAdd.m in Sources */,
 				393B78A520C6404300CC2A09 /* UITableView+JZAdd.m in Sources */,
+				390CC0D62182FFCC008EEB04 /* UIView+Alert.m in Sources */,
 				393B789C20C6404300CC2A09 /* UIDevice+JZAdd.m in Sources */,
 				393B78A020C6404300CC2A09 /* UIImageView+JZAdd.m in Sources */,
 				393B789720C6404300CC2A09 /* NSDictionary+jzSafe.m in Sources */,
@@ -465,6 +476,7 @@
 				393B78A620C6404300CC2A09 /* UITableViewCell+QuickInit.m in Sources */,
 				393B78AA20C6404300CC2A09 /* JZAnimateTool.m in Sources */,
 				393B78AB20C6404300CC2A09 /* JZFontTool.m in Sources */,
+				390CC0D921830062008EEB04 /* UIButton+JZAdd.m in Sources */,
 				393B789620C6404300CC2A09 /* NSArray+jzSafe.m in Sources */,
 				393B78A220C6404300CC2A09 /* UINavigationBar+JZAdd.m in Sources */,
 				393B783920C63FE200CC2A09 /* main.m in Sources */,
