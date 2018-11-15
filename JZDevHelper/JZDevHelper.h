@@ -48,6 +48,7 @@
 #import "JZAnimateTool.h"
 #import "JZFontTool.h"
 #import "JZSacleTool.h"
+#import "JZDeviceTool.h"
 
 // Util
 #import "DataUtil.h"

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		390CC0D62182FFCC008EEB04 /* UIView+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 390CC0D52182FFCC008EEB04 /* UIView+Alert.m */; };
 		390CC0D921830062008EEB04 /* UIButton+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 390CC0D821830062008EEB04 /* UIButton+JZAdd.m */; };
+		390F380E219D712D00E72F75 /* NSTimer+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 390F380D219D712D00E72F75 /* NSTimer+JZAdd.m */; };
+		390F3811219D723500E72F75 /* JZDeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 390F3810219D723500E72F75 /* JZDeviceTool.m */; };
 		393B782B20C63FE200CC2A09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B782A20C63FE200CC2A09 /* AppDelegate.m */; };
 		393B782E20C63FE200CC2A09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B782D20C63FE200CC2A09 /* ViewController.m */; };
 		393B783120C63FE200CC2A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393B782F20C63FE200CC2A09 /* Main.storyboard */; };
@@ -64,6 +66,10 @@
 		390CC0D52182FFCC008EEB04 /* UIView+Alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Alert.m"; sourceTree = "<group>"; };
 		390CC0D721830062008EEB04 /* UIButton+JZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JZAdd.h"; sourceTree = "<group>"; };
 		390CC0D821830062008EEB04 /* UIButton+JZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JZAdd.m"; sourceTree = "<group>"; };
+		390F380C219D712D00E72F75 /* NSTimer+JZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JZAdd.h"; sourceTree = "<group>"; };
+		390F380D219D712D00E72F75 /* NSTimer+JZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JZAdd.m"; sourceTree = "<group>"; };
+		390F380F219D723500E72F75 /* JZDeviceTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDeviceTool.h; sourceTree = "<group>"; };
+		390F3810219D723500E72F75 /* JZDeviceTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZDeviceTool.m; sourceTree = "<group>"; };
 		393B782620C63FE200CC2A09 /* JZDevHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZDevHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		393B782920C63FE200CC2A09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		393B782A20C63FE200CC2A09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -251,6 +257,8 @@
 				393B786920C6404200CC2A09 /* NSString+JZAdd.m */,
 				393B786A20C6404200CC2A09 /* UIDevice+JZAdd.h */,
 				393B786B20C6404200CC2A09 /* UIDevice+JZAdd.m */,
+				390F380C219D712D00E72F75 /* NSTimer+JZAdd.h */,
+				390F380D219D712D00E72F75 /* NSTimer+JZAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -309,6 +317,8 @@
 				393B789020C6404300CC2A09 /* JZFontTool.m */,
 				393B789120C6404300CC2A09 /* JZSacleTool.h */,
 				393B789220C6404300CC2A09 /* JZSacleTool.m */,
+				390F380F219D723500E72F75 /* JZDeviceTool.h */,
+				390F3810219D723500E72F75 /* JZDeviceTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -459,12 +469,14 @@
 				393B789F20C6404300CC2A09 /* UIImage+JZAdd.m in Sources */,
 				393B782E20C63FE200CC2A09 /* ViewController.m in Sources */,
 				393B789D20C6404300CC2A09 /* CALayer+JZAdd.m in Sources */,
+				390F380E219D712D00E72F75 /* NSTimer+JZAdd.m in Sources */,
 				393B78A420C6404300CC2A09 /* UIScrollView+JZAdd.m in Sources */,
 				393B78A120C6404300CC2A09 /* UILabel+JZAdd.m in Sources */,
 				393B78A320C6404300CC2A09 /* UINavigationController+JZAdd.m in Sources */,
 				393B789920C6404300CC2A09 /* NSObject+jzswizzle.m in Sources */,
 				393B789B20C6404300CC2A09 /* NSString+JZAdd.m in Sources */,
 				393B78A520C6404300CC2A09 /* UITableView+JZAdd.m in Sources */,
+				390F3811219D723500E72F75 /* JZDeviceTool.m in Sources */,
 				390CC0D62182FFCC008EEB04 /* UIView+Alert.m in Sources */,
 				393B789C20C6404300CC2A09 /* UIDevice+JZAdd.m in Sources */,
 				393B78A020C6404300CC2A09 /* UIImageView+JZAdd.m in Sources */,

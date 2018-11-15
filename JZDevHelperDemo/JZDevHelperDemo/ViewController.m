@@ -30,6 +30,16 @@
     kDISPATCH_AFTER(3, ^{
         NSLog(@"DisBACK");
     });
+    
+    NSString *str = NULL;
+    if (str.isEmpty) {
+        YJLog(@"空");
+    }
+    
+    YJLog(@"%@",[JZDeviceTool appBundleName]);
+    YJLog(@"%@",[JZDeviceTool appBundleIdentifier]);
+    YJLog(@"%@",[JZDeviceTool appVersion]);
+    YJLog(@"%@",[JZDeviceTool appBuildVersion]);
 }
 
 

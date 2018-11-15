@@ -11,6 +11,8 @@
 
 @interface NSString (JZAdd)
 
+/** 是否为空 */
+- (BOOL)isEmpty;
 
 #pragma mark - Drawing
 
@@ -27,21 +29,12 @@
 
 /**
  *  根据文字的长度计算所占的宽度
- *
- *  @param font 字体大小
- *
- *  @return 宽度
  */
 - (CGFloat)jz_widthForFont:(UIFont *)font;
 
 
 /**
  *  根据文字的长度和宽度计算所占的高度
- *
- *  @param font  字体大小
- *  @param width 宽度
- *
- *  @return 高度
  */
 - (CGFloat)jz_heightForFont:(UIFont *)font width:(CGFloat)width;
 
@@ -52,7 +45,6 @@
 
 /**
  *  是否包含中文
- *
  */
 - (BOOL)jz_isContainChinese;
 
