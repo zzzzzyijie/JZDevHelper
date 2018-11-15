@@ -14,6 +14,10 @@
     return [UIDevice currentDevice].systemVersion.doubleValue;
 }
 
++ (NSString *)UUID{
+    return [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+}
+
 + (NSString *)appBundleName{
     return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
 }

@@ -40,6 +40,7 @@
     YJLog(@"%@",[JZDeviceTool appBundleIdentifier]);
     YJLog(@"%@",[JZDeviceTool appVersion]);
     YJLog(@"%@",[JZDeviceTool appBuildVersion]);
+    
 }
 
 

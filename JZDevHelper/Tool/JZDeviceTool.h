@@ -11,11 +11,21 @@
 
 @interface JZDeviceTool : NSObject
 
+#pragma mark - 系统信息
+
 /**
  *  系统版本
  */
 + (double)currentiOSVersion;
 
+/**
+ *  UUID
+ */
++ (NSString *)UUID;
+
+
+
+#pragma mark - App 版本信息
 /**
  *  App名称
  */
