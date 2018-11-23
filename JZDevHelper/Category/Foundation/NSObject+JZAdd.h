@@ -13,5 +13,5 @@
  *  是否为空
  *  支持对 （nil、NSNull、NSString、NSDictionary、NSArray）的判断
  */
-- (BOOL)isEmpty;
+- (BOOL)jz_isEmpty;
 @end

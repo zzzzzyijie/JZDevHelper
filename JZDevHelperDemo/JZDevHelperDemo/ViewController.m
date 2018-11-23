@@ -33,17 +33,17 @@
     });
     
     NSString *str = @"";
-    if (str.isEmpty) {
+    if (str.jz_isEmpty) {
         YJLog(@"空 str");
     }
     
     NSMutableArray *mArray = [NSMutableArray arrayWithArray:@[]];
-    if (mArray.isEmpty) {
+    if (mArray.jz_isEmpty) {
         YJLog(@"空 mArray ");
     }
     
     NSMutableDictionary *mDict = [NSMutableDictionary dictionaryWithDictionary:@{}];
-    if (mDict.isEmpty) {
+    if (mDict.jz_isEmpty) {
         YJLog(@"空 mDict");
     }
     

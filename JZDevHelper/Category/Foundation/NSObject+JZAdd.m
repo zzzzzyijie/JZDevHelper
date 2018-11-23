@@ -9,7 +9,7 @@
 #import "NSObject+JZAdd.h"
 
 @implementation NSObject (JZAdd)
-- (BOOL)isEmpty{
+- (BOOL)jz_isEmpty{
     if (self == nil || self == NULL) {
         return YES;
     }
