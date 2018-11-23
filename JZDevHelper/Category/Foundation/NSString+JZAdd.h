@@ -11,9 +11,6 @@
 
 @interface NSString (JZAdd)
 
-/** 是否为空 */
-- (BOOL)isEmpty;
-
 #pragma mark - Drawing
 
 /**

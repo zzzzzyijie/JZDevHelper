@@ -10,17 +10,6 @@
 
 @implementation NSString (JZAdd)
 
-- (BOOL)isEmpty{
-    if (self == nil || self == NULL) {
-        return YES;
-    }
-    if ([self isKindOfClass:[NSNull class]]){
-        return YES;
-    }
-    return NO;
-}
-
-
 - (CGFloat)jz_widthForFont:(UIFont *)font {
     CGSize size = [self jz_sizeForFont:font size:CGSizeMake(HUGE, HUGE) mode:NSLineBreakByWordWrapping];
     return size.width;

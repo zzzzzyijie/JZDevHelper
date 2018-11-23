@@ -42,6 +42,7 @@
 		393B78AC20C6404300CC2A09 /* JZSacleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B789220C6404300CC2A09 /* JZSacleTool.m */; };
 		393B78AD20C6404300CC2A09 /* DataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B789520C6404300CC2A09 /* DataUtil.m */; };
 		399143762143AD3900A76F9E /* UIWindow+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 399143752143AD3900A76F9E /* UIWindow+JZAdd.m */; };
+		39E7A96E21A6BB9400429368 /* NSObject+JZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7A96D21A6BB9300429368 /* NSObject+JZAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,8 @@
 		393B78B320C6784900CC2A09 /* JZDevHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZDevHelper.h; sourceTree = "<group>"; };
 		399143742143AD3800A76F9E /* UIWindow+JZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JZAdd.h"; sourceTree = "<group>"; };
 		399143752143AD3900A76F9E /* UIWindow+JZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JZAdd.m"; sourceTree = "<group>"; };
+		39E7A96C21A6BB9300429368 /* NSObject+JZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JZAdd.h"; sourceTree = "<group>"; };
+		39E7A96D21A6BB9300429368 /* NSObject+JZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JZAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +262,8 @@
 				393B786B20C6404200CC2A09 /* UIDevice+JZAdd.m */,
 				390F380C219D712D00E72F75 /* NSTimer+JZAdd.h */,
 				390F380D219D712D00E72F75 /* NSTimer+JZAdd.m */,
+				39E7A96C21A6BB9300429368 /* NSObject+JZAdd.h */,
+				39E7A96D21A6BB9300429368 /* NSObject+JZAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -480,6 +485,7 @@
 				390CC0D62182FFCC008EEB04 /* UIView+Alert.m in Sources */,
 				393B789C20C6404300CC2A09 /* UIDevice+JZAdd.m in Sources */,
 				393B78A020C6404300CC2A09 /* UIImageView+JZAdd.m in Sources */,
+				39E7A96E21A6BB9400429368 /* NSObject+JZAdd.m in Sources */,
 				393B789720C6404300CC2A09 /* NSDictionary+jzSafe.m in Sources */,
 				393B789A20C6404300CC2A09 /* NSString+Date.m in Sources */,
 				393B78AD20C6404300CC2A09 /* DataUtil.m in Sources */,

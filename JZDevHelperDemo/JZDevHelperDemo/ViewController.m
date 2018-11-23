@@ -27,14 +27,15 @@
         });
     });
     
+    
     kDISPATCH_AFTER(3, ^{
         NSLog(@"DisBACK");
     });
     
-    NSString *str = NULL;
-    if (str.isEmpty) {
-        YJLog(@"空");
-    }
+//    NSString *str = @"";
+//    if (str.isEmpty) {
+//        YJLog(@"空");
+//    }
     
     YJLog(@"%@",[JZDeviceTool appBundleName]);
     YJLog(@"%@",[JZDeviceTool appBundleIdentifier]);
@@ -47,6 +48,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    NSMutableArray *mArray = [NSMutableArray arrayWithArray:@[]];
+    
+    if (mArray.isEmpty) {
+        YJLog(@"空 mArray ");
+    }
+    
+    NSMutableDictionary *mDict = [NSMutableDictionary dictionaryWithDictionary:@{}];
+    if (mDict.isEmpty) {
+        YJLog(@"空 mDict");
+    }
 }
 
 

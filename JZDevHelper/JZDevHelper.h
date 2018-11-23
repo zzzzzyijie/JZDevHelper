@@ -38,6 +38,8 @@
 #import "NSString+Date.h"
 #import "NSString+JZAdd.h"
 #import "UIDevice+JZAdd.h"
+#import "NSObject+JZAdd.h"
+
 
 // Macro
 #import "CGRectHelp.h"
