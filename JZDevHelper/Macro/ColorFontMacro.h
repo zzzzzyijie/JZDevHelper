@@ -16,14 +16,14 @@
 #define JZRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
 
 // 基础颜色
-#define UIColorClear                [UIColor clearColor]
-#define UIColorWhite                [UIColor whiteColor]
-#define UIColorBlack                [UIColor blackColor]
-#define UIColorGray                 [UIColor grayColor]
-#define UIColorGrayLighten          [UIColor darkGrayColor]
-#define UIColorRed                  [UIColor redColor]
-#define UIColorGreen                [UIColor greenColor]
-#define UIColorBlue                 [UIColor blueColor]
-#define UIColorYellow               [UIColor yellowColor]
+#define JZColorClear                [UIColor clearColor]
+#define JZColorWhite                [UIColor whiteColor]
+#define JZColorBlack                [UIColor blackColor]
+#define JZColorGray                 [UIColor grayColor]
+#define JZColorGrayLighten          [UIColor darkGrayColor]
+#define JZColorRed                  [UIColor redColor]
+#define JZColorGreen                [UIColor greenColor]
+#define JZColorBlue                 [UIColor blueColor]
+#define JZColorYellow               [UIColor yellowColor]
 
 @end

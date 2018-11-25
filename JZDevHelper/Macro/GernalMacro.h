@@ -49,9 +49,9 @@
 #define JZStrongSelf(type)  __strong typeof(type) type = weak##type;
 
 /** 主窗口 */
-#define JZKeyWindow [[UIApplication sharedApplication].delegate window]
+#define JZKeyWindow [[UIApplication sharedApplication].delegate window]?[[UIApplication sharedApplication].delegate window]:[UIApplication sharedApplication].keyWindow
 
-// 忽略警告
+// 忽略警告 -> 使用： BeginIgnoreClangWarning(警告名称) ，后面 EndIgnoreClangWarning
 #define ArgumentToString(macro) #macro
 #define ClangWarningConcat(warning_name) ArgumentToString(clang diagnostic ignored warning_name)
 #define BeginIgnoreClangWarning(warningName) _Pragma("clang diagnostic push") _Pragma(ClangWarningConcat(#warningName))
