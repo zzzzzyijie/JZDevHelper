@@ -41,4 +41,22 @@
                                    );
 }
 
+
+- (id)jz_getAssociatedValueForKey:(void *)key {
+    return objc_getAssociatedObject(self, key);
+}
+
+- (void)jz_setAssociatedValue:(id)value withKey:(void *)key {
+    objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (void)jz_setAssignValue:(id)value withKey:(SEL)key {
+    objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (void)jz_removeAssociatedObjects {
+    objc_removeAssociatedObjects(self);
+}
+
+
 @end
