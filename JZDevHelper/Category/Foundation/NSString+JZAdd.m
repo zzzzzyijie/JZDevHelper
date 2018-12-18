@@ -522,7 +522,35 @@
         return [mgr attributesOfItemAtPath:self error:nil].fileSize; // 该路径的大小
     }
     return 0; // 空路径
+}
 
+#pragma mark - 字符串操作
+- (NSString *)substringToIndexSafe:(NSUInteger)to {
+    if (self == nil || [self isEqualToString:@""]) {
+        return @"";
+    }
+    if (to > self.length - 1) {
+        return @"";
+    }
+    return  [self substringToIndex:to];
+}
+
+- (NSString *)substringFromIndexSafe:(NSInteger)from {
+    if (self == nil || [self isEqualToString:@""]) {
+        return @"";
+    }
+    if (from > self.length - 1) {
+        return @"";
+    }
+    return  [self substringFromIndex:from];
+}
+
+- (NSString *)deleteFirstCharacter {
+    return [self substringFromIndexSafe:1];
+}
+
+- (NSString *)deleteLastCharacter {
+    return [self substringToIndexSafe:self.length - 1];
 }
 
 @end

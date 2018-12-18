@@ -255,6 +255,26 @@
  */
 - (unsigned long long)jz_getFileSize;
 
+#pragma mark - 字符串操作
+/**
+ *  截取到某个位置
+ */
+- (NSString *)substringToIndexSafe:(NSUInteger)to;
+
+/**
+ *  从某个位置开始截取
+ */
+- (NSString *)substringFromIndexSafe:(NSInteger)from;
+
+/**
+ *  删除字符串中的首字符
+ */
+- (NSString *)deleteFirstCharacter;
+
+/**
+ *  删除字符串中的末尾字符
+ */
+- (NSString *)deleteLastCharacter;
 
 @end
 
