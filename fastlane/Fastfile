@@ -23,7 +23,7 @@ lane :release_pod do |options|
   # 《5》检查对于 tag 是否已经存在，如果存在则，删除再添加该tag
   if git_tag_exists(tag: target_version)
       # 删除对应 tag
-      UI.message("您输入的tag:#{target_version}已存在，即将自动清除") 
+      UI.message("您输入的tag:#{target_version}已存在，请设置正确的tag") 
       #remove_git_tag(tagNum: target_version)
   end
 
