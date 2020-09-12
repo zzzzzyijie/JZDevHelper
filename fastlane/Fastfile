@@ -24,7 +24,7 @@ lane :release_pod do |options|
   if git_tag_exists(tag: target_version)
       # 删除对应 tag
       UI.message("您输入的tag:#{target_version}已存在，即将自动清除") 
-      remove_git_tag(tagNum: target_version)
+      #remove_git_tag(tagNum: target_version)
   end
 
   # 《6》添加trunk tag
