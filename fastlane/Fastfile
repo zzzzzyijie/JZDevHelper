@@ -1,0 +1,12 @@
+
+lane :updatepod do |options|
+tagNum = options[:tag]
+podspecName = options[:specName]\
+
+
+# 3、提交本地仓库代码至远程仓库
+git_add(path: ".")
+git_commit(path: ".", message: "upgrade repo")
+push_to_git_remote
+
+end
