@@ -15,9 +15,9 @@ Install _fastlane_ using
 or alternatively using `brew install fastlane`
 
 # Available Actions
-### updatepod
+### release_pod
 ```
-fastlane updatepod
+fastlane release_pod
 ```
 
 
